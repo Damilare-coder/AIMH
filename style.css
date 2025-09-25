@@ -15,12 +15,19 @@ nav-link:hover {
     
 }
 
-@media screen and (min-width: 380px) {
-    .search_sm {
+@media screen and (min-width: 430px) {
+    .medi_lg {
+        display: none;
         
     }
     .medi_sm {
-        font-size:  4px;
+
+        display: block;
+        padding: 35px;
+
+    } 
+    .medi_sm div h1 {
+        text-align: center;
     }
 
     
