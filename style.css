@@ -33,6 +33,10 @@ nav-link:hover {
 
 }
 
+.li_a:hover::after {
+        color: #575af5;
+    }   
+
 
 @media screen and (max-width: 576px) {
 
