@@ -4,31 +4,68 @@ nav-link:hover {
 
 
 
-@media screen and (min-width: 825px) {
+/* @media screen and (min-width: 825px) {
     .search_sm {
         
     }
     .medi_sm {
         font-size:  4px;
-    }
+    } */
 
-    
+
+/* @media screen and (min-width: 430px) {
+.medi_lg {
+    display: none;
+}
+}
+ */
+
+.medi_lg {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    max-width: 100%;
+    padding: 50px 40px 60px 60px;
 }
 
-@media screen and (min-width: 430px) {
+.medi_sm {
+    display: none;
+
+}
+
+
+@media screen and (max-width: 576px) {
+
     .medi_lg {
         display: none;
-        
+
     }
+
     .medi_sm {
-
         display: block;
-        padding: 35px;
-
-    } 
-    .medi_sm div h1 {
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        overflow: hidden;
         text-align: center;
+        box-sizing: border-box;
+        background-color: #110c52;
     }
+    .search_sm {
+            max-width: 230px;
+            height: 38px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            margin: 30px auto 0px auto;
 
-    
-}
+
+        }
+
+        .medi_sm div h1 {
+            /* margin: 0px 50px 0px 50px; */
+
+        }
+
+
+
+    }
