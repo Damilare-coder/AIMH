@@ -1,0 +1,8 @@
+@media screen and (min-width: 577px) and (max-width: 824px) {
+
+    .virtual_sm{
+        padding-right: 25px !important;
+        padding-left: 0px;
+        margin-top: 20px !important;
+    }
+}
