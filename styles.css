@@ -1,7 +1,28 @@
+.body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 @media screen and (min-width: 577px) and (max-width: 824px) {
 
-    .virtual_sm{
+    .virtual_md{
         padding-right: 25px !important;
+        padding-left: 0px;
+        margin-top: 20px !important;
+    }
+    /* .img_md{
+        width: 600px;
+    } */
+    .p1_md{
+        padding-right: 200px;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+
+    .virtual_sm{
+        padding-right: 20px !important;
         padding-left: 0px;
         margin-top: 20px !important;
     }
